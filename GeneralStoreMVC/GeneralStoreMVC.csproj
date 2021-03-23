@@ -172,6 +172,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\TransactionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -182,6 +183,14 @@
     <Compile Include="Migrations\202103231440051_First.cs" />
     <Compile Include="Migrations\202103231440051_First.Designer.cs">
       <DependentUpon>202103231440051_First.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103231559172_Second.cs" />
+    <Compile Include="Migrations\202103231559172_Second.Designer.cs">
+      <DependentUpon>202103231559172_Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103231945252_Third.cs" />
+    <Compile Include="Migrations\202103231945252_Third.Designer.cs">
+      <DependentUpon>202103231945252_Third.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -258,6 +267,8 @@
     <Content Include="Views\Customer\Delete.cshtml" />
     <Content Include="Views\Customer\Edit.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Transaction\Index.cshtml" />
+    <Content Include="Views\Transaction\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -281,6 +292,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103231440051_First.resx">
       <DependentUpon>202103231440051_First.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103231559172_Second.resx">
+      <DependentUpon>202103231559172_Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103231945252_Third.resx">
+      <DependentUpon>202103231945252_Third.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
